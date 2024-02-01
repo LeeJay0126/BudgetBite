@@ -1,0 +1,22 @@
+.Header {
+    width: 100vw;
+}
+
+.LogoContainer {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 40px;
+}
+
+.Logo {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.options {
+    color: white;
+}
+
+.options a {
+    color: white;
+    text-decoration: none;
+}
