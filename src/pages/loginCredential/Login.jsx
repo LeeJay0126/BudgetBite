@@ -1,7 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import './loginCred.css'
-import Signup from './Signup'
 import { useState } from 'react'
 import axios from 'axios'
 
@@ -13,7 +12,7 @@ const Login = () => {
   })
   //local server port
   const url = 'http://localhost3500/users/login'
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   async function fetchLoginData() {
     const username = values.username
@@ -82,7 +81,7 @@ const Login = () => {
           </div>
           <div className="findpwidContainer">
             <Link to="/findid">Find ID</Link>
-            <Link to="/findid">Find PW</Link>
+            <Link to="/findpw">Find PW</Link>
           </div>
         </section>
       </form>

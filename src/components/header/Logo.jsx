@@ -5,7 +5,7 @@ const Logo = () =>{
     return (
         <div className="LogoContainer">
             <h1 className="Logo">
-                SHIFT SIMPLE
+                BUDGETBITE
             </h1>
         </div>
     );

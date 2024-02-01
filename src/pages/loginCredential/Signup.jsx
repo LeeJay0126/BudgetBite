@@ -8,7 +8,7 @@ const Signup = () => {
   const [value, setValue] = useState({
     email: '',
     username: '',
-    password: ''
+    password: '',
   })
 
   const url = 'http://localhost:3500/users/signup'
@@ -78,7 +78,7 @@ const Signup = () => {
           </div>
           <div className="findpwidContainer">
             <Link to="/findid">Find ID</Link>
-            <Link to="/findid">Find PW</Link>
+            <Link to="/findpw">Find PW</Link>
           </div>
         </section>
       </form>
