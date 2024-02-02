@@ -11,7 +11,7 @@ const Signup = () => {
     password: '',
   })
 
-  const url = 'http://localhost:3500/users/signup'
+  const url = 'http://localhost:5173/users/signup'
   const navigate = useNavigate()
 
   async function postNewUser(e) {

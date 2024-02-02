@@ -11,7 +11,7 @@ const Login = () => {
     password: ''
   })
   //local server port
-  const url = 'http://localhost3500/users/login'
+  const url = 'http://localhost5173/users/login'
   const navigate = useNavigate();
 
   async function fetchLoginData() {

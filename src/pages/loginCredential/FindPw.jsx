@@ -44,7 +44,10 @@ const FindPw = () => {
   return (
     <div>
       <Header />
-      <form className="loginCredForm">
+      <form 
+      className="loginCredForm"
+      onSubmit={formSubmitHandler}
+      >
         <h2>Find ID</h2>
         <section className="inputSection">
           <div className="inputContainer">

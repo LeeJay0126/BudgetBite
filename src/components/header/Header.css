@@ -8,8 +8,9 @@
 }
 
 .Logo {
-    text-align: center;
+    font-size: 15px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .options {
